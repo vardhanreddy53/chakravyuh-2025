@@ -5,12 +5,12 @@ const Team = () => {
   const facultyCoordinators = [
     {
       name: 'Dr. Neha Nandal',
-      role: 'Head of Department',
+      role: 'IEEE CS Coordinator',
       image: 'https://images.unsplash.com/photo-1573496799652-408c2ac9fe98?q=80&w=1000',
     },
     {
       name: 'Prof. Mamatha',
-      role: 'Faculty Coordinator',
+      role: 'CyberSecurity Club Coordinator',
       image: 'https://images.unsplash.com/photo-1580894732444-8ecded7900cd?q=80&w=1000',
     },
   ];
@@ -18,34 +18,34 @@ const Team = () => {
   const studentCoordinators = [
     {
       name: 'Vardhan',
-      role: 'Chair',
+      role: 'IEEE CS SB Chair',
       image: 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=1000',
     },
     {
       name: 'Dhanush',
-      role: 'Vice Chair',
+      role: 'CyberSecurity Club Chair',
       image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1000',
     },
     {
-      name: 'Rahul',
+      name: 'Vignesh',
       role: 'Technical Lead',
       image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1000',
     },
     {
-      name: 'Priya',
+      name: 'Rohit',
       role: 'Event Coordinator',
       image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1000',
     },
-    {
-      name: 'Karthik',
-      role: 'Marketing Lead',
-      image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=1000',
-    },
-    {
-      name: 'Sneha',
-      role: 'Design Lead',
-      image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1000',
-    },
+    // {
+    //   name: 'Karthik',
+    //   role: 'Marketing Lead',
+    //   image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=1000',
+    // },
+    // {
+    //   name: 'Sneha',
+    //   role: 'Design Lead',
+    //   image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1000',
+    // },
   ];
 
   return (
