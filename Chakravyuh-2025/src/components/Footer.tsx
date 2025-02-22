@@ -63,8 +63,6 @@ const Footer = () => {
               <a href="/about" className="block text-gray-300 hover:text-saffron">About Us</a>
               <a href="/schedule" className="block text-gray-300 hover:text-saffron">Sacred Timeline</a>
               <a href="/register" className="block text-gray-300 hover:text-saffron">Join Battle</a>
-              <a href="/sponsors" className="block text-gray-300 hover:text-saffron">Our Sponsors</a>
-              <a href="/team" className="block text-gray-300 hover:text-saffron">Sacred Warriors</a>
             </div>
           </div>
         </div>
