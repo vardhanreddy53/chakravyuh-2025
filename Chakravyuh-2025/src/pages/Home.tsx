@@ -16,27 +16,15 @@ const Home = () => {
     {
       name: 'Computer Science Department',
       image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=1000',
-      description: 'Department of Computer Science, REVA University.',
+      description: 'Department of Computer Science,Geethanjali College of Engineering and Technology.',
       type: 'Academic Partner'
     },
     {
       name: 'IEEE Student Branch',
       image: 'https://images.unsplash.com/photo-1516321165247-4aa89a48be28?q=80&w=1000',
-      description: 'IEEE Student Branch, REVA University Chapter.',
+      description: 'IEEE Student Branch,Geethanjali College of Engineering and Technology ',
       type: 'Technical Partner'
     },
-    {
-      name: 'GCTC',
-      image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1000',
-      description: 'Global Cyber Threat Council.',
-      type: 'Knowledge Partner'
-    },
-    {
-      name: 'Red Bull',
-      image: 'https://images.unsplash.com/photo-1611567149354-716c7c2f836c?q=80&w=1000',
-      description: 'Official Energy Drink Partner.',
-      type: 'Beverage Partner'
-    }
   ];
 
   useEffect(() => {
