@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { MapPin, Mail, Phone, Globe } from "lucide-react";
 
 const Footer = () => {
@@ -95,24 +96,15 @@ const Footer = () => {
               >
                 Instagram
               </a>
-              <a
-                link="/schedule"
-                className="block text-gray-300 hover:text-saffron"
-              >
-                Sacred Timeline
-              </a>
-              <a
-                href="/register"
-                className="block text-gray-300 hover:text-saffron"
-              >
+              <Link to="/schedule" className="block text-gray-300 hover:text-saffron">
+                  Sacred Timeline
+              </Link>
+              <Link to="/register" className="block text-gray-300 hover:text-saffron">
                 Join Battle
-              </a>
-              <a
-                href="/team"
-                className="block text-gray-300 hover:text-saffron"
-              >
-                Team
-              </a>
+              </Link>
+              <Link to="/team" className="block text-gray-300 hover:text-saffron">
+                Meet the Team
+              </Link>
             </div>
           </div>
         </div>
