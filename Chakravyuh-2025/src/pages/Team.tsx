@@ -21,7 +21,7 @@ const Team = () => {
     {
       name: "Vardhan",
       role: "IEEE CS SB Chair",
-      image: "public/images/vardhan.jpeg",
+      image: "public/images/vardan.jpg",
       social: "https://www.linkedin.com/in/vardhanreddy53/",
     },
     {
