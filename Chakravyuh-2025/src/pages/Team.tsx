@@ -27,7 +27,7 @@ const Team = () => {
     {
       name: "Dhanush",
       role: "CyberSecurity Club Chair",
-      image: "dist/images/dhanush.jpeg",
+      image: "dist/images/dhanush.jpg",
       social: "https://www.linkedin.com/in/dhanusherramuri/",
     },
     {
@@ -39,9 +39,8 @@ const Team = () => {
     {
       name: "Rohit",
       role: "Event Coordinator",
-      image:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1000",
-      social: "",
+      image: "dist/images/Rohit.jpg",
+      social: "https://www.instagram.com/ieeecs_gcetsb/",
     },
     // {
     //   name: 'Karthik',

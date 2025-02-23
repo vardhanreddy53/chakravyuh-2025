@@ -15,16 +15,14 @@ const Home = () => {
     },
     {
       name: "Computer Science Department",
-      image:
-        "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=1000",
+      image: "dist/images/gctc3.jpg",
       description:
         "Department of Computer Science,Geethanjali College of Engineering and Technology.",
       type: "Academic Partner",
     },
     {
       name: "IEEE Student Branch",
-      image:
-        "https://images.unsplash.com/photo-1516321165247-4aa89a48be28?q=80&w=1000",
+      image: "dist/images/logocomputer.jpg",
       description:
         "IEEE Student Branch,Geethanjali College of Engineering and Technology ",
       type: "Technical Partner",
