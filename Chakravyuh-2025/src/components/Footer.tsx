@@ -96,7 +96,7 @@ const Footer = () => {
                 Instagram
               </a>
               <a
-                href="/schedule"
+                link="/schedule"
                 className="block text-gray-300 hover:text-saffron"
               >
                 Sacred Timeline
@@ -108,7 +108,7 @@ const Footer = () => {
                 Join Battle
               </a>
               <a
-                href="/Team"
+                href="/team"
                 className="block text-gray-300 hover:text-saffron"
               >
                 Team

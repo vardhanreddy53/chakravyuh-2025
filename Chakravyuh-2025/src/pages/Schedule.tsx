@@ -9,21 +9,21 @@ const Schedule = () => {
       title: 'Divine Knowledge Transfer',
       description: 'As Dronacharya trained the Pandavas, our masters will guide you through the sacred arts of cybersecurity',
       icon: Shield,
-      time: '9:00 AM - 5:00 PM',
+      time: '9:30 AM - 3:30 PM',
     },
     {
       day: 'Day 2: The First Battle',
       title: 'Initial Chakravyuh Challenge',
       description: 'Like young Abhimanyu, face your first test in the art of digital warfare',
       icon: Sword,
-      time: '9:00 AM - 6:00 PM',
+      time: '9:30 AM - 3:30 PM',
     },
     {
       day: 'Day 3: The Final Conquest',
       title: 'Ultimate Warrior Trials',
       description: 'Channel your inner Arjuna and face the most challenging battles',
       icon: Target,
-      time: '9:00 AM - 7:00 PM',
+      time: '9:30 AM - 4:00 PM',
     },
   ];
 
