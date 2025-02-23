@@ -21,15 +21,13 @@ const Team = () => {
     {
       name: "Vardhan",
       role: "IEEE CS SB Chair",
-      image:
-        "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=1000",
+      image: "dist/images/vardhan.jpeg",
       social: "https://www.linkedin.com/in/vardhanreddy53/",
     },
     {
       name: "Dhanush",
       role: "CyberSecurity Club Chair",
-      image:
-        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1000",
+      image: "dist/images/dhanush.jpeg",
       social: "https://www.linkedin.com/in/dhanusherramuri/",
     },
     {
