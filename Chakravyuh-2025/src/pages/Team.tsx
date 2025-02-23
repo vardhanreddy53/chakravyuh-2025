@@ -6,13 +6,13 @@ const Team = () => {
     {
       name: "Dr. Neha Nandal",
       role: "IEEE CS Coordinator",
-      image: "dist/images/neha.jpeg",
+      image: "src/images/neha.jpeg",
       social: "https://www.linkedin.com/in/neha-nandal-64a04498/",
     },
     {
       name: "Prof. Mamatha",
       role: "CyberSecurity Club Coordinator",
-      image: "dist/images/Mamatha.jpg",
+      image: "src/images/Mamatha.jpg",
       social: "https://www.linkedin.com/in/neha-nandal-64a04498/",
     },
   ];
@@ -21,25 +21,25 @@ const Team = () => {
     {
       name: "Vardhan",
       role: "IEEE CS SB Chair",
-      image: "dist/images/vardhan.jpeg",
+      image: "src/images/vardhan.jpeg",
       social: "https://www.linkedin.com/in/vardhanreddy53/",
     },
     {
       name: "Dhanush",
       role: "CyberSecurity Club Chair",
-      image: "dist/images/dhanush.jpg",
+      image: "src/images/dhanush.jpg",
       social: "https://www.linkedin.com/in/dhanusherramuri/",
     },
     {
       name: "Vignesh",
       role: "Technical Lead",
-      image: "dist/images/vicky.jpg",
+      image: "src/images/vicky.jpg",
       social: "https://www.linkedin.com/in/shivanoor-vignesh-541085270/",
     },
     {
       name: "Rohit",
       role: "Event Coordinator",
-      image: "dist/images/Rohit.jpg",
+      image: "src/images/Rohit.jpg",
       social: "https://www.instagram.com/ieeecs_gcetsb/",
     },
     // {

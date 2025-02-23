@@ -9,20 +9,20 @@ const Home = () => {
   const sponsors = [
     {
       name: "Supraja Technologies",
-      image: "dist/images/st.jpg",
+      image: "src/images/st.jpg",
       description: "Leading provider of cybersecurity solutions and training.",
       type: "Technical Sponsor",
     },
     {
       name: "Computer Science Department",
-      image: "dist/images/gctc3.jpg",
+      image: "src/images/gctc3.jpg",
       description:
         "Department of Computer Science,Geethanjali College of Engineering and Technology.",
       type: "Academic Partner",
     },
     {
       name: "IEEE Student Branch",
-      image: "dist/images/logocomputer.jpg",
+      image: "src/images/logocomputer.jpg",
       description:
         "IEEE Student Branch,Geethanjali College of Engineering and Technology ",
       type: "Technical Partner",
