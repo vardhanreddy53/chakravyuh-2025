@@ -1,40 +1,46 @@
-import React from 'react';
-import { Users } from 'lucide-react';
+import React from "react";
+import { Users } from "lucide-react";
 
 const Team = () => {
   const facultyCoordinators = [
     {
-      name: 'Dr. Neha Nandal',
-      role: 'IEEE CS Coordinator',
-      image: 'https://images.unsplash.com/photo-1573496799652-408c2ac9fe98?q=80&w=1000',
+      name: "Dr. Neha Nandal",
+      role: "IEEE CS Coordinator",
+      image: "dist/images/neha.jpeg",
+      social: "https://www.linkedin.com/in/neha-nandal-64a04498/",
     },
     {
-      name: 'Prof. Mamatha',
-      role: 'CyberSecurity Club Coordinator',
-      image: 'https://images.unsplash.com/photo-1580894732444-8ecded7900cd?q=80&w=1000',
+      name: "Prof. Mamatha",
+      role: "CyberSecurity Club Coordinator",
+      image: "dist/images/Mamatha.jpg",
+      social: "https://www.linkedin.com/in/neha-nandal-64a04498/",
     },
   ];
 
   const studentCoordinators = [
     {
-      name: 'Vardhan',
-      role: 'IEEE CS SB Chair',
-      image: 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=1000',
+      name: "Vardhan",
+      role: "IEEE CS SB Chair",
+      image: "dist/images/vardhan.jpeg",
+      social: "https://www.linkedin.com/in/vardhanreddy53/",
     },
     {
-      name: 'Dhanush',
-      role: 'CyberSecurity Club Chair',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1000',
+      name: "Dhanush",
+      role: "CyberSecurity Club Chair",
+      image: "dist/images/dhanush.jpg",
+      social: "https://www.linkedin.com/in/dhanusherramuri/",
     },
     {
-      name: 'Vignesh',
-      role: 'Technical Lead',
-      image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1000',
+      name: "Vignesh",
+      role: "Technical Lead",
+      image: "dist/images/vicky.jpg",
+      social: "https://www.linkedin.com/in/shivanoor-vignesh-541085270/",
     },
     {
-      name: 'Rohit',
-      role: 'Event Coordinator',
-      image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1000',
+      name: "Rohit",
+      role: "Event Coordinator",
+      image: "dist/images/Rohit.jpg",
+      social: "https://www.instagram.com/ieeecs_gcetsb/",
     },
     // {
     //   name: 'Karthik',
@@ -69,10 +75,7 @@ const Team = () => {
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               {facultyCoordinators.map((faculty, index) => (
-                <div
-                  key={index}
-                  className="relative group"
-                >
+                <div key={index} className="relative group">
                   <div className="absolute -inset-1 bg-gradient-to-r from-saffron via-gold to-saffron rounded-lg blur opacity-25 group-hover:opacity-75 transition duration-1000"></div>
                   <div className="relative flex items-center bg-darkBrown/80 backdrop-blur-sm p-6 rounded-lg border border-saffron/20">
                     <div className="w-32 h-32 relative mr-6">
@@ -84,7 +87,9 @@ const Team = () => {
                       />
                     </div>
                     <div>
-                      <h3 className="text-2xl font-bold text-saffron mb-2">{faculty.name}</h3>
+                      <h3 className="text-2xl font-bold text-saffron mb-2">
+                        <a href={faculty.social}>{faculty.name}</a>
+                      </h3>
                       <p className="text-gold">{faculty.role}</p>
                     </div>
                   </div>
@@ -114,7 +119,9 @@ const Team = () => {
                         className="w-full h-full object-cover rounded-lg transform rotate-3 transition-transform group-hover:rotate-0 duration-300"
                       />
                     </div>
-                    <h3 className="text-xl font-bold text-saffron mb-1">{student.name}</h3>
+                    <h3 className="text-xl font-bold text-saffron mb-1">
+                      <a href={student.social}>{student.name}</a>
+                    </h3>
                     <p className="text-gold">{student.role}</p>
                   </div>
                 </div>
@@ -125,6 +132,6 @@ const Team = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Team;
