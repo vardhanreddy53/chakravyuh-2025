@@ -31,17 +31,60 @@ const Team = () => {
       social: "https://www.linkedin.com/in/dhanusherramuri/",
     },
     {
+      name: "Muzammil Pasha",
+      role: "CyberSecurity Club Vice Chair",
+      image: "images/Muzammil.jpg",
+      social: "https://www.linkedin.com/in/mohammed-muzammil-pasha-495413232/",
+    },
+    {
+      name: "Kankati Pragnya",
+      role: "CS Social media head",
+      image: "images/pragnya.jpg",
+      social: "https://www.linkedin.com/in/pragnya-kankati-100204254/",
+    },
+
+    {
       name: "Vignesh",
       role: "Technical Lead",
       image: "images/Vicky.jpg",
       social: "https://www.linkedin.com/in/shivanoor-vignesh-541085270/",
     },
     {
+      name: "Shashank",
+      role: "IEEE social media head",
+      image: "images/shashkank.jpg",
+      social:
+        "https://www.linkedin.com/in/shashank-chepuri-26ba12278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    },
+
+    {
+      name: "Ratna Keshav",
+      role: "IEEE social media head",
+      image: "images/Ratnakeshav .jpg",
+      social:
+        "https://www.linkedin.com/in/ratnakeshav-s-685523295/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    },
+    {
+      name: "Shruthi",
+      role: "Designing Head",
+      image: "images/shruthi.jpg",
+      social:
+        "hhttps://www.linkedin.com/in/kanduri-shruthi-80910b2a3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    },
+    {
       name: "Rohit",
       role: "Event Coordinator",
       image: "images/Rohit.jpg",
-      social: "https://www.instagram.com/ieeecs_gcetsb/",
+      social:
+        "https://www.linkedin.com/in/rohit-chandra-05721626b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
+    {
+      name: "Sanjana",
+      role: "Marketing Head",
+      image: "images/sa.jpg",
+      social: "https://www.linkedin.com/in/sanjana-uppoju-356207295/",
+    },
+
     // {
     //   name: 'Karthik',
     //   role: 'Marketing Lead',
