@@ -9,7 +9,7 @@ const Countdown = () => {
   });
 
   useEffect(() => {
-    const eventDate = new Date('2024-05-01T00:00:00'); // Set your event date here
+    const eventDate = new Date('2025-03-19T09:30:00'); // Set your event date here
 
     const timer = setInterval(() => {
       const now = new Date();

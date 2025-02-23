@@ -62,7 +62,7 @@ const Footer = () => {
                     Vardhan
                   </a>
                 </p>
-                <p className="text-gray-400 text-sm">+91 98765 43210</p>
+                <p className="text-gray-400 text-sm">+91 94942 60026</p>
               </div>
               <div>
                 <h4 className="text-gold font-bold">
@@ -73,7 +73,7 @@ const Footer = () => {
                     Erramuri Dhanush Raj Kumar
                   </a>
                 </p>
-                <p className="text-gray-400 text-sm">+91 98765 43210</p>
+                <p className="text-gray-400 text-sm">+91 8019618201</p>
               </div>
             </div>
           </div>
@@ -101,6 +101,12 @@ const Footer = () => {
                 className="block text-gray-300 hover:text-saffron"
               >
                 Join Battle
+              </a>
+              <a
+                href="/about"
+                className="block text-gray-300 hover:text-saffron"
+              >
+                About
               </a>
             </div>
           </div>
