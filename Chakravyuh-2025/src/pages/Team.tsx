@@ -23,24 +23,27 @@ const Team = () => {
       role: "IEEE CS SB Chair",
       image:
         "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=1000",
+      social: "https://www.linkedin.com/in/vardhanreddy53/",
     },
     {
       name: "Dhanush",
       role: "CyberSecurity Club Chair",
       image:
         "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1000",
+      social: "https://www.linkedin.com/in/dhanusherramuri/",
     },
     {
       name: "Vignesh",
       role: "Technical Lead",
-      image:
-        "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1000",
+      image: "dist/images/vicky.jpg",
+      social: "https://www.linkedin.com/in/shivanoor-vignesh-541085270/",
     },
     {
       name: "Rohit",
       role: "Event Coordinator",
       image:
         "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1000",
+      social: "",
     },
     // {
     //   name: 'Karthik',
@@ -120,7 +123,7 @@ const Team = () => {
                       />
                     </div>
                     <h3 className="text-xl font-bold text-saffron mb-1">
-                      {student.name}
+                      <a href={student.social}>{student.name}</a>
                     </h3>
                     <p className="text-gold">{student.role}</p>
                   </div>
