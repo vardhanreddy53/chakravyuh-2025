@@ -59,7 +59,7 @@ const Team = () => {
 
     {
       name: "Ratna Keshav",
-      role: "IEEE social media head",
+      role: "Logistics Head",
       image: "images/Ratnakeshav .jpg",
       social:
         "https://www.linkedin.com/in/ratnakeshav-s-685523295/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
