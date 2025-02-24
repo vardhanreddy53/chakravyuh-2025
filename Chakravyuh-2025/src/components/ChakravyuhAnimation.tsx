@@ -5,7 +5,7 @@ const ChakravyuhAnimation = () => {
   return (
     <div className="absolute inset-0 pointer-events-none overflow-hidden">
       {/* Rotating Chakra Formation */}
-      <div className="absolute inset-0 animate-spin-slow">
+      {/* <div className="absolute inset-0 animate-spin-slow">
         {[...Array(7)].map((_, i) => (
           <div
             key={i}
@@ -16,7 +16,7 @@ const ChakravyuhAnimation = () => {
             }}
           />
         ))}
-      </div>
+      </div> */}
 
       {/* Decorative Swords */}
       <div className="absolute inset-0">

@@ -23,7 +23,7 @@ const Home = () => {
       social: "https://www.gcet.edu.in/cse",
     },
     {
-      name: "IEEE CSe GCET Student Branch",
+      name: "IEEE CS GCET Student Branch",
       image: "images/logocomputer.jpg",
       description:
         "IEEE Computer Society Student Branch,Geethanjali College of Engineering and Technology ",
