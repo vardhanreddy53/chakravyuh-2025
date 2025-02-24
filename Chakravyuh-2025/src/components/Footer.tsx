@@ -60,7 +60,7 @@ const Footer = () => {
                 <h4 className="text-gold font-bold">IEEE Chair</h4>
                 <p className="text-gray-300">
                   <a href="https://www.linkedin.com/in/vardhanreddy53/">
-                    Vardhan
+                    Pathuri Sai Vardhan Reddy
                   </a>
                 </p>
                 <a
