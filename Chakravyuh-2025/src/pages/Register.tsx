@@ -62,18 +62,7 @@ const Register = () => {
             >
               <X className="w-5 h-5" />
             </button>
-            
-            <h2 className="text-2xl font-bold mb-4">Proceed to Swear Your Oath</h2>
-            <p className="text-lg mb-6">Click below to open the form and take your sacred oath.</p>
-            
-            <a 
-              href="https://docs.google.com/forms/d/14CebDnA4wOPzYEAHbu0KKKBsarZKa-ekWBPIQIR9zgY/viewform?edit_requested=true" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="btn-primary inline-block px-6 py-3 rounded-md font-bold text-white bg-saffron hover:bg-gold transition duration-300"
-            >
-              Open Form
-            </a>
+            <h2 className="text-2xl font-bold mb-4">The battle has ended and Dharma won</h2>
           </div>
         </div>
       )}
